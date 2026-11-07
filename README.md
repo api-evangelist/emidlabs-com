@@ -1,4 +1,4 @@
-# emidlabs-com
+# EmidLabs
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,119 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-emidlabs-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://emidlabs.com/
+EmidLabs provides API‑first infrastructure for quantitative intelligence and market execution. It enables dev‑traders, independent quants, and systematic traders to run backtests at scale, iterate strategies programmatically, and build quantitative workflows without building their own back‑testing infrastructure.
+
+**Areas:** Company · API · Quantitative · Trading · Infrastructure
+
+## EmidLabs on APIs.io
+
+Everything profiled for EmidLabs is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/emidlabs-com/](https://apis.io/providers/emidlabs-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Backtesting API](https://apis.io/apis/emidlabs-com/backtesting-api/) — Provides endpoints for backtesting quantitative trading strategies, including data retrieval, execution, and result analysis.
+- [EmidLabs API](https://apis.io/apis/emidlabs-com/emidlabs-com-api/) — EmidLabs API as documented publicly: 25 operations. Contract generated from the documentation by API Evangelist (2026-11-06); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetBacktestBatchBatchidResultsResponse](https://apis.io/schemas/emidlabs-com/emidlabs-com-get-backtest-batch-batchid-results-response/)
+- [GetBacktestIdResponse](https://apis.io/schemas/emidlabs-com/emidlabs-com-get-backtest-id-response/)
+- [GetConfirmationSourcesIdResponse](https://apis.io/schemas/emidlabs-com/emidlabs-com-get-confirmation-sources-id-response/)
+- [GetSubscriptionsIdResponse](https://apis.io/schemas/emidlabs-com/emidlabs-com-get-subscriptions-id-response/)
+- [GetSubscriptionsIdSignalsResponse](https://apis.io/schemas/emidlabs-com/emidlabs-com-get-subscriptions-id-signals-response/)
+- [PostSubscriptionsRequest](https://apis.io/schemas/emidlabs-com/emidlabs-com-post-subscriptions-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Emidlabs Com Context](https://apis.io/jsonld/emidlabs-com/emidlabs-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [EmidLabs API Rules](https://apis.io/rules/emidlabs-com/emidlabs-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Emidlabs Com Authentication](https://apis.io/security/emidlabs-com/emidlabs-com-authentication/)
+- [Emidlabs Com Domain Security](https://apis.io/security/emidlabs-com/emidlabs-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://emidlabs.com/)
+- [Documentation](https://emidlabs.com/en/docs)
+- [Getting started](https://emidlabs.com/en/docs)
+- [API reference](https://emidlabs.com/en/docs)
+- [Pricing](https://emidlabs.com/en#pricing)
+- [Sign up](https://console.emidlabs.com/login)
+- [Support](https://emidlabs.com/en/support)
+- [Terms of service](https://emidlabs.com/en/terms)
+- [Privacy policy](https://emidlabs.com/en/privacy)
+
+## API Evangelist rating
+
+**Kin Score 45.5** — developing · rubric 0.27.0 · scored 2026-11-06
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 45.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 45.2 |
+| Access clarity | 44.7 |
+
+**Agent readiness 18.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 23.1** — Securities & Market Data
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/emidlabs-com/](https://apis.io/providers/emidlabs-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for EmidLabs: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/emidlabs-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
